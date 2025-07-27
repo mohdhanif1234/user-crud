@@ -1,0 +1,19 @@
+REST API
+
+REpresentation State Transfer - Application Programming Interface
+
+1. Client and server should be independent of each other
+2. Always respect the HTTP methods
+
+
+
+Today's task
+GET - list all users -  /api/v1/users -> done and dusted
+
+GET - list user by id -  /api/v1/users/1 -> done and dusted
+
+POST - create a new user - /api/v1/users -> done and dusted
+
+PATCH/PUT - update any field or whole user - /api/v1/users/1 -> done and dusted
+
+DELETE - delete a user - /api/v1/users/1 -> done and dusted

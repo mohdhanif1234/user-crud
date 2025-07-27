@@ -1,0 +1,25 @@
+version is in 3 parts
+
+express - 5.1.0
+
+1st part -> 5 major (breaking changes)
+2nd part -> 1 minor (recommended bug fix, security fix, additional feature)
+3rd part -> 0 patch optional (if it changes then the functionality of the
+app is not going to be affected)
+
+^5.1.0 caret (allows for minor + patch releases)
+5.1.1 allowed
+5.1.23 allowed
+5.2.0 allowed
+5.9.1 allowed
+6.1.0 not allowed
+
+~5.1.0 tilde (allows only for patch releases)
+5.1.1 allowed
+5.1.2 allowed
+5.2.1 not allowed
+5.2.3 not allowed
+6.1.0 not allowed
+
+5.1.0
+5.1.1 not allowed (not allowed for any release - major, minor & patch)
